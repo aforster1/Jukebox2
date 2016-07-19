@@ -28,4 +28,10 @@ public class MainActivity extends AppCompatActivity {
         switchToDj=new Intent(this,DJ_Login.class);
         startActivity(switchToDj);
     }
+    
+     public void voterModeClicked(View view) {
+        Intent switchToVoter = new Intent(this, voterModeMainActivity.class);
+        startActivity(switchToVoter);
+    }
+    
 }
